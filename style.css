@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    padding: 0;
+    margin: 0;
+  }
+ .container {
+    background-color: peru;
+    opacity: .9;
+  }
+  .logo-resto img {
+    width: 60px;
+  }
+  ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    padding: 0 2em;
+    line-height: 60px;
+    text-transform: uppercase;
+    height: 60px;
+    text-decoration: none;
+  }
+
+  li a.active {
+    color: turquoise;
+    border-bottom: turquoise solid 5px;
+  }
+
+  li a:hover {
+    color: cornflowerblue;
+    border-bottom: cornflowerblue solid 5px;
+    transition: all 0.3s;
+  }
+
+  .home {
+    /* margin-top: 40px; */
+    padding-top: 60px;
+    background-image: url("background.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-home {
+    color: white;
+    text-align: left;
+    padding: 1.5em;
+  }
+
+  .text-home h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+  }
+  .text-home p {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+    padding-bottom: 250px;
+  }
+
+  .yolo {
+    margin-left: 25px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    box-shadow: 4px 4px black;
+    background-color: coral;
+    margin-top: 1em;
+    text-decoration: none;
+  }
+  
+  .text-home a:hover {
+    background-color: rgb(230, 84, 84);
+  }
+
+  .deskripsi-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+
+  .gambar-deskripsi img {
+    width: 100%;
+    border: 2px solid burlywood;
+    box-shadow: 2px 2px 4px black;
+  }
+
+  .text-deskripsi,
+  .gambar-deskripsi {
+    width: 50%;
+    margin: 1em;
+  }
+  .text-deskripsi {
+    text-align: justify;
+    line-height: 25px;
+  }
+
+  .footer-container {
+    background-color: peru;
+    color: white;
+    padding: 2em;
+  }
+
+  .footer-logo img {
+    width: 60px;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .footer-menu ul {
+    list-style: none;
+  }
+  .footer-menu section {
+    width: 30%;
+  }
+  .footer-menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-medsos,
+  .footer-layanan {
+    display: flex;
+    flex-direction: column;
+  }
